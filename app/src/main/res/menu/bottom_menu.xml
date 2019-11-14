@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favourite"
+        android:enabled="true"
+        android:title="Favourites"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_groceries"
+        android:enabled="true"
+        android:title="Groceries"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_restaurants"
+        android:enabled="true"
+        android:title="Restaurants"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_bars"
+        android:enabled="true"
+        android:title="Bars"
+        android:icon="@drawable/ic_local_bar_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/action_cafes"
+        android:enabled="true"
+        android:title="Cafes"
+        android:icon="@drawable/ic_local_cafe_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+</menu>
+
